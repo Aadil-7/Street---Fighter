@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg, yellow,darkgreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.branding{
+    letter-spacing: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 5px 10px black;
+}
+
+.players{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.players p {
+    color: rgb(197, 241, 134);
+    font-size: 1.7rem;
+    margin: .5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0px 5px 10px black;
+}
+
+.player1,.player2 {
+    padding-top: 50px;
+    text-align: center;
+    margin: 1rem;
+    height: auto;
+    width: auto;
+
+}
+
+img{
+    width: 60%;
+}
+
+#message{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0px 3px 8px black;
+}
+
+button{
+    margin: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 2px black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 1px solid green;
+    background-color: transparent;
+    box-shadow: 0px 4px 8px black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:disabled{
+    border: 1px solid black;
+    color: #fff;
+    background: gray;
+}
+
+.heal{
+    color: blue;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0px 1px 2px black;
+    letter-spacing: 2px;
+}
+
+.controlles{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+}
+
+.p1controlles, .p2controlles, h3{
+    margin: 1rem;
+}
